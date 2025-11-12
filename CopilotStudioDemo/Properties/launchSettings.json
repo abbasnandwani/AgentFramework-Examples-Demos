@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "CopilotStudioDemo": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AppClientId": "97172c67-f49b-4524-b316-b9260c74e1b5",
+        "TenantId": "7fe40d0f-92f3-49fb-a9f4-438a4ce0827c",
+        "EnvironmentId": "89172c12-3b25-e2fc-8719-0ea2fd44061e",
+        "SchemaName": "cre0d_agent"
+      }
+    }
+  }
+}
