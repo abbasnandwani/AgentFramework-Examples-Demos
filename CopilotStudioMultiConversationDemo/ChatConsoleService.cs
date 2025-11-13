@@ -19,7 +19,8 @@ class ChatConsoleService : IHostedService
         _copilotClient = copilotClient;
         _loggerFactory = loggerFactory;
 
-        _agent = new CopilotStudioAgent(_copilotClient, _loggerFactory);
+        //_agent = new CopilotStudioAgent(_copilotClient, _loggerFactory);
+        _agent = new CopilotStudioAgent(_copilotClient, null);
         _agentThread = _agent.GetNewThread();
     }
 
