@@ -26,7 +26,7 @@ class ChatConsoleService : IHostedService
 
     public async Task StartAsync(CancellationToken cancellationToken)
     {
-        Console.Write("\nagent> ");
+        Console.Write("\nagent> What joke you would like to hear?");
 
         // Once we are connected and have initiated the conversation, begin the message loop with the Console. 
         while (!cancellationToken.IsCancellationRequested)
