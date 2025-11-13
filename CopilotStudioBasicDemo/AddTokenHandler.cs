@@ -4,7 +4,7 @@ using Microsoft.Identity.Client;
 using Microsoft.Identity.Client.Extensions.Msal;
 using System.Runtime.InteropServices;
 
-namespace CopilotStudioDemo;
+namespace CopilotStudioBasicDemo;
 
 internal class AddTokenHandler(CopilotConnectionSettings settings) : DelegatingHandler(new HttpClientHandler())
 {

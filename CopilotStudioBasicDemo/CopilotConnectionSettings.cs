@@ -1,6 +1,6 @@
 ﻿using Microsoft.Agents.CopilotStudio.Client;
 
-namespace CopilotStudioDemo;
+namespace CopilotStudioBasicDemo;
 
 class CopilotConnectionSettings : ConnectionSettings
 {

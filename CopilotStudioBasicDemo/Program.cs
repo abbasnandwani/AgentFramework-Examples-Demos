@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Security.Principal;
 
-namespace CopilotStudioDemo;
+namespace CopilotStudioBasicDemo;
 
 internal class Program
 {
