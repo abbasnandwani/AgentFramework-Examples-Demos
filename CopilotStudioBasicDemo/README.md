@@ -12,7 +12,7 @@ This demo shows how to call copilot studio agent using Agent Framework in C#.
 1. Go to **Settings** => **Advanced** => **Metadata** and note the following values:
     1. Schema name
     1. Environment Id
-1. These values will be used in [environment variables](#environment-variables-headenvironmentvars).
+1. These values will be used in [environment variables](#environment-variables).
 
 ### 2. Create an Application Registration in Entra ID - User Interactive Login
 
@@ -27,7 +27,7 @@ This step will require permissions to Create application identities in your Azur
     1. In the Redirect URI url box, type in `http://localhost` (**note: use HTTP, not HTTPS**)
     1. Then click register.
 1. In your newly created application
-    1. On the Overview page, Note down for use later in [environment variables](#environment-variables-headenvironmentvars):
+    1. On the Overview page, Note down for use later in [environment variables](#environment-variables):
         1. the Application (client) ID
         1. the Directory (tenant) ID
     1. Goto Manage
