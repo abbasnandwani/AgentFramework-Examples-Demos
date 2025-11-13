@@ -27,7 +27,7 @@ This step will require permissions to Create application identities in your Azur
     1. In the Redirect URI url box, type in `http://localhost` (**note: use HTTP, not HTTPS**)
     1. Then click register.
 1. In your newly created application
-    1. On the Overview page, Note down for use later in <a href="#headenvironmentvars">environment variables</a>:
+    1. On the Overview page, Note down for use later in [environment variables](#headenvironmentvars) <a href="#environment-variables-headenvironmentvars">environment variables</a>:
         1. the Application (client) ID
         1. the Directory (tenant) ID
     1. Goto Manage
