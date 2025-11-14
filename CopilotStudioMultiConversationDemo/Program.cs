@@ -31,7 +31,7 @@ internal class Program
 
         // Create an http client for use by the DirectToEngine Client and add the token handler to the client.
         builder.Services.AddHttpClient("cpmtdemo")
-            //.RemoveAllLoggers() //comment this to disable http logging in console
+            //.RemoveAllLoggers() //uncomment this to disable http logging in console
             .ConfigurePrimaryHttpMessageHandler(() =>
         {
             return new MyTokenHandler(settings);
