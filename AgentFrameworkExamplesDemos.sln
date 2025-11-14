@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotStudioBasicDemo", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotStudioMultiConversationDemo", "CopilotStudioMultiConversationDemo\CopilotStudioMultiConversationDemo.csproj", "{0EEB199F-1D5F-46C1-BB7E-E120703B0ED2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialWorkflowDemo", "SequentialWorkflowDemo\SequentialWorkflowDemo.csproj", "{662D3608-5232-467E-9206-C02592D36739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0EEB199F-1D5F-46C1-BB7E-E120703B0ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EEB199F-1D5F-46C1-BB7E-E120703B0ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EEB199F-1D5F-46C1-BB7E-E120703B0ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662D3608-5232-467E-9206-C02592D36739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662D3608-5232-467E-9206-C02592D36739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662D3608-5232-467E-9206-C02592D36739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662D3608-5232-467E-9206-C02592D36739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
