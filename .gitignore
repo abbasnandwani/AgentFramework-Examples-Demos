@@ -416,3 +416,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/CopilotStudioMultiConversationDemo/Properties/launchSettings.json
+/ValuesForTesting.txt
+/SequentialWorkflowWithCopilotAndOtherAgentsDemo/Properties/launchSettings.json
+/CopilotStudioBasicDemo/Properties/launchSettings.json
